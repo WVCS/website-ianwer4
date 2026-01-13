@@ -9,7 +9,6 @@ ul {
   background-color: white;
 	position: fixed;
 	height: 100%;
-	overflow: auto;
 }
 
 li a {
@@ -24,5 +23,11 @@ li a {
 }
 
 img{
-	 width:40%;
+	 width:20%;
+}
+img:hover {
+	border: dotted 5px #00CBFF;
+	width: 200px;
+	border-radius: 70%;
+
 }
